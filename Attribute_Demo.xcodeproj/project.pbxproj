@@ -13,6 +13,7 @@
 		FE54033B1EF766E000566FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5403391EF766E000566FAB /* Main.storyboard */; };
 		FE54033D1EF766E000566FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE54033C1EF766E000566FAB /* Assets.xcassets */; };
 		FE5403401EF766E000566FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE54033E1EF766E000566FAB /* LaunchScreen.storyboard */; };
+		FE5403491EF76AC200566FAB /* AttributedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5403481EF76AC200566FAB /* AttributedManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FE54033C1EF766E000566FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE54033F1EF766E000566FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE5403411EF766E000566FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5403471EF76AC200566FAB /* AttributedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedManager.h; sourceTree = "<group>"; };
+		FE5403481EF76AC200566FAB /* AttributedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FE5403341EF766DF00566FAB /* AppDelegate.m */,
 				FE5403361EF766DF00566FAB /* ViewController.h */,
 				FE5403371EF766DF00566FAB /* ViewController.m */,
+				FE5403471EF76AC200566FAB /* AttributedManager.h */,
+				FE5403481EF76AC200566FAB /* AttributedManager.m */,
 				FE5403391EF766E000566FAB /* Main.storyboard */,
 				FE54033C1EF766E000566FAB /* Assets.xcassets */,
 				FE54033E1EF766E000566FAB /* LaunchScreen.storyboard */,
@@ -110,7 +115,7 @@
 				TargetAttributes = {
 					FE54032C1EF766DE00566FAB = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE5403381EF766DF00566FAB /* ViewController.m in Sources */,
+				FE5403491EF76AC200566FAB /* AttributedManager.m in Sources */,
 				FE5403351EF766DF00566FAB /* AppDelegate.m in Sources */,
 				FE5403321EF766DF00566FAB /* main.m in Sources */,
 			);
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Attribute_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qinong.Attribute-Demo";
@@ -283,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Attribute_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qinong.Attribute-Demo";
